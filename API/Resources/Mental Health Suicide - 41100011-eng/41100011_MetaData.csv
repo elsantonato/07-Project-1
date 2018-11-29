@@ -1,0 +1,98 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Perceived mental health and suicidal thoughts by Aboriginal identity",41100011,577-0013,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110001101",1;2;3;4;5;6,"CURRENT - a cube available to the public and that is current",Occasional,2012-01-01,2012-01-01,6
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Aboriginal identity",6,
+3,"Age group",,
+4,Sex,,
+5,"Perceived mental health and suicidal thoughts",,
+6,Statistics,16;17;18,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,11124,1,,,,
+1,Atlantic,1,2,1,,7,
+1,Quebec,24,3,1,,,
+1,Ontario,35,4,1,,,
+1,Manitoba,46,5,1,,,
+1,Saskatchewan,47,6,1,,,
+1,Alberta,48,7,1,,,
+1,"British Columbia",59,8,1,,,
+1,Yukon,60,9,1,,,
+1,"Northwest Territories",61,10,1,,,
+1,Nunavut,62,11,1,,,
+2,"Total , Aboriginal identity",,1,,,,
+2,"First Nations (North American Indian)",,2,1,,,
+2,"First Nations (North American Indian), Registered or Treaty Indian",,3,2,,8,
+2,"First Nations (North American Indian), not a Registered or Treaty Indian",,4,2,,8,
+2,Métis,,5,1,,,
+2,"Inuk (Inuit)",,6,1,,,
+3,"Total, 18 years and over",,1,,,,
+3,"18 to 24 years",,2,1,,,
+3,"25 to 54 years",,3,1,,,
+3,"55 years and over",,4,1,,,
+4,"Both sexes",,1,,,,
+4,Male,,2,1,,,
+4,Female,,3,1,,,
+5,"Total, perceived mental health",,1,,,4;9,
+5,"Excellent or very good perceived mental health",,2,1,,4;9;10,
+5,"Good perceived mental health",,3,1,,4;9;11,
+5,"Fair or poor perceived mental health",,4,1,,4;9;12,
+5,"Perceived mental health not specified",,5,1,,4;9;13,
+5,"Total, suicidal thoughts",,6,,,5;14,
+5,"Ever seriously considered committing suicide",,7,6,,5;14;15,
+5,"Seriously considered committing suicide in the past 12 months",,8,7,,5;14;15,
+5,"Seriously considered committing suicide but not in the past 12 months",,12,7,,5;14;15,
+5,"Not specified, seriously considered committing suicide in the past 12 months",,13,7,,5;13;14;15,
+5,"Never seriously considered committing suicide",,14,6,,5;14,
+5,"Not specified, seriously considered committing suicide",,15,6,,5;13;14,
+6,"Number of Persons",,1,,,,
+6,Percent,,2,,,,
+6,"Low 95% confidence interval",,3,,,,
+6,"High 95% confidence interval",,4,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3250,"Aboriginal Peoples Survey"
+
+"Subject Code","Subject Name"
+41,"Aboriginal peoples"
+
+"Note ID",Note
+1,"Source: Aboriginal Peoples Survey 2012."
+2,"This table was previously released March 30, 2015. This current version of the table has been modified from the original version by (1) the addition of provincial and territorial data, (2) the recalculation of some percentages, based on the overall total for the variable (see footnotes 9 and 14), and (3) the change of the theme ""Perceived mental health and suicidal thoughts and attempts"" to ""Perceived mental health and suicidal thoughts"". Sub-categories of ""Seriously considered committing suicide in the past 12 months"", which indicated whether or not the person had ever attempted suicide, have been removed."
+3,"Excludes persons living on Indian reserves or settlements."
+4,"Perceived mental health refers to the perception of a person's mental health in general. The question on perceived mental health was only asked of respondents who completed their own (non-proxy) interviews. Respondents were asked ""In general, would you say your mental health is... Excellent? Very good? Good? Fair? Poor?""."
+5,"Questions on suicidal thoughts were only asked of respondents who completed their own (non-proxy) interviews. Respondents were asked ""Have you ever seriously considered committing suicide or taking your own life?""."
+6,"Aboriginal identity includes persons living off reserve who reported being an Aboriginal person, that is, First Nations (North American Indian), Métis or Inuk (Inuit) and/or those who reported Registered or Treaty Indian status, that is registered under the Indian Act of Canada, and/or those who reported membership in a First Nation or Indian band. The sum of the categories included in this variable is greater than the total population estimate for Aboriginal identity because a person may have reported more than one Aboriginal identity: for example, a person could self-identify as both First Nations and Métis."
+7,"Atlantic includes Newfoundland and Labrador, Prince Edward Island, Nova Scotia, and New Brunswick."
+8,"Registered or Treaty Indian status refers to whether or not a person reported being a Registered or Treaty Indian. Registered Indians are persons who are registered under the Indian Act of Canada. Treaty Indians are persons who belong to a First Nation or Indian band that signed a treaty with the Crown. Registered or Treaty Indians are sometimes also called Status Indians."
+9,"All percentages for the component ""perceived mental health"" are calculated using the number of persons in ""total, perceived mental health"" as denominator."
+10,"This category includes persons who rated their mental health as ""excellent"" or ""very good"". These are the most positive ratings on the perceived mental health scale, a five-point scale ranging from ""excellent"" to ""poor""."
+11,"This category includes persons who rated their mental health as ""good"". This is the midpoint on the perceived mental health scale which is a five-point scale ranging from ""excellent"" to ""poor""."
+12,"This category includes persons who rated their mental health as ""fair"" or ""poor"". These are the most negative ratings on the perceived mental health scale, a five-point scale ranging from ""excellent"" to ""poor""."
+13,"""Not specified"" categories consist of item non-response (""Refusal"", ""Don't know"", and ""Not stated"")."
+14,"All percentages for the component ""suicidal thoughts"" are calculated using the number of persons in ""total, suicidal thoughts"" as denominator."
+15,"Respondents who said they had ever seriously considered committing suicide or taking their own life were asked: ""Has this happened in the past 12 months?""."
+16,"Bootstrapping techniques were used to produce the coefficient of variation (CV)."
+17,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified by an (E) and should be interpreted with caution."
+18,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed (F) due to extreme sampling variability."
+
+"Correction ID","Correction Date","Correction Note"
+

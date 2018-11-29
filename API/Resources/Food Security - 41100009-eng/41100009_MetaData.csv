@@ -1,0 +1,95 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Food security by Aboriginal Identity",41100009,577-0009,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4110000901",1;2;3;4,"CURRENT - a cube available to the public and that is current",Occasional,2012-01-01,2012-01-01,7
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,"Aboriginal identity",4,
+3,"Age group",7,
+4,Sex,,
+5,"Number of persons in the household",8,
+6,"Food security",3;10,
+7,Statistics,12;13;14,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,11124,1,,,,
+1,Atlantic,1,2,1,,5,
+1,Quebec,24,3,1,,,
+1,Ontario,35,4,1,,,
+1,Manitoba,46,5,1,,,
+1,Saskatchewan,47,6,1,,,
+1,Alberta,48,7,1,,,
+1,"British Columbia",59,8,1,,,
+1,Yukon,60,9,1,,,
+1,"Northwest Territories",61,10,1,,,
+1,Nunavut,62,11,1,,,
+2,"Total, Aboriginal identity",,1,,,,
+2,"First Nations (North American Indian)",,2,1,,,
+2,"First Nations (North American Indian), Registered or Treaty Indian",,3,2,,6,
+2,"First Nations (North American Indian), not a Registered or Treaty Indian",,4,2,,6,
+2,Métis,,5,1,,,
+2,"Inuk (Inuit)",,6,1,,,
+3,"Total, 6 years and over",,1,,,,
+3,"6 to 14 years",,2,1,,,
+3,"15 to 24 years",,3,1,,,
+3,"25 to 54 years",,4,1,,,
+3,"55 years and over",,5,1,,,
+4,"Both sexes",,1,,,,
+4,Male,,2,1,,,
+4,Female,,3,1,,,
+5,"Total, number of persons in the household",,1,,,,
+5,"One person",,2,1,,,
+5,"Two persons",,3,1,,,
+5,"Three to five persons",,4,1,,,
+5,"More than five persons",,5,1,,,
+5,"Number of persons in household not specified",,6,1,,9,
+6,"Total, food security",,1,,,,
+6,"High or marginal food security",,2,1,,,
+6,"Low food security",,3,1,,,
+6,"Very low food security",,4,1,,,
+6,"Food security not specified",,5,1,,11,
+7,"Number of persons",,1,,,,
+7,Percent,,2,,,10,
+7,"Low 95% confidence interval",,3,,,,
+7,"High 95% confidence interval",,4,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3250,"Aboriginal Peoples Survey"
+
+"Subject Code","Subject Name"
+41,"Aboriginal peoples"
+
+"Note ID",Note
+1,"Source: Aboriginal Peoples Survey 2012."
+2,"Excludes persons living on Indian reserves or settlements."
+3,"Food security is based on answers to a set of six questions and indicates whether food security is high or marginal, low, or very low (note: the answers to these questions may have been provided directly by the respondent, or by another member of the respondent's household). Respondents were asked to indicate whether each of the following six statements were often true, sometimes true, or never true in the past 12 months: (1) The food that (you/you and other household members) bought just didn't last, and there wasn't any money to get more. (2) (You/You and other household members) couldn't afford to eat balanced meals. (3) In the past 12 months, since last [CurrentMonth], did (you/you and other household members) ever cut the size of your meals or skip meals because there wasn't enough money for food? (4) How often did this happen - almost every month, some months but not every month, or in only 1 or 2 months? (5) In the past 12 months, did you (personally) ever eat less than you felt you should because there wasn't enough money to buy food? (6) In the past 12 months, were you (personally) ever hungry but didn't eat because you couldn't afford enough food? Within the set of six questions, responses of ""Often true"" or ""Sometimes true"" in questions 1 and 2 and responses of ""Yes"" in questions 3, 5 and 6 are coded as affirmative (Yes). Responses of ""Almost every month"" and ""Some months but not every month"" in question 4 are coded as affirmative (Yes). The sum of affirmative responses to the six questions in the module determines the score on the scale for each respondent."
+4,"Aboriginal identity includes persons living off reserve who reported being an Aboriginal person, that is, First Nations (North American Indian), Métis or Inuk (Inuit) and/or those who reported Registered or Treaty Indian status, that is registered under the Indian Act of Canada, and/or those who reported membership in a First Nation or Indian band. The sum of the categories included in this variable is greater than the total population estimate for Aboriginal identity because a person may have reported more than one Aboriginal identity: for example, a person could self-identify as both First Nations and Métis."
+5,"Atlantic includes Newfoundland and Labrador, Prince Edward Island, Nova Scotia, and New Brunswick."
+6,"Registered or Treaty Indian status refers to whether or not a person reported being a Registered or Treaty Indian. Registered Indians are persons who are registered under the Indian Act of Canada. Treaty Indians are persons who belong to a First Nation or Indian band that signed a treaty with the Crown. Registered or Treaty Indians are sometimes also called Status Indians."
+7,"Proxy reporting was used in the 2012 Aboriginal Peoples Survey for most children aged 6 to 14 years, nearly half of youth aged 15 to 17 years and for adults in certain specific situations (for example when the selected adult was not able to answer for health related reasons, due to a language barrier, or because the selected respondent was going to be away from home for the duration of the survey.)"
+8,"Respondents were asked, ""Including yourself, how many persons usually live here, at this address, as of today?""."
+9,"""Number of persons in household not specified"" consists of item non-response (""Refusal"", ""Don't know"", and ""Not stated"")."
+10,"All percentages for the variable ""food security"" are calculated using the number of persons in ""total, food security"" as denominator."
+11,"""Food security not specified"" consists of item non-response (""Refusal"", ""Don't know"", and ""Not stated"") to any of the six food security questions."
+12,"Bootstrapping techniques were used to produce the coefficient of variation (CV)."
+13,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified by an (E) and should be interpreted with caution."
+14,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed (F) due to extreme sampling variability."
+
+"Correction ID","Correction Date","Correction Note"
+
