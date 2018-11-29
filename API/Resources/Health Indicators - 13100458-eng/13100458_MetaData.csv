@@ -1,0 +1,165 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Health indicators, by Aboriginal identity, age-standardized rates, four-year period estimates",13100458,105-0513,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310045801",1;2,"ARCHIVED -  a cube publicly available but no longer being updated",Occasional,2007-01-01,2007-01-01,5
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,Sex,,
+3,"Aboriginal identity",,
+4,Indicators,,
+5,Characteristics,55;56;57;58;59;60;61,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,,1,,,,
+1,"Newfoundland and Labrador",,2,1,,,
+1,"Prince Edward Island",,3,1,,,
+1,"Nova Scotia",,4,1,,,
+1,"New Brunswick",,5,1,,,
+1,Quebec,,6,1,,,
+1,Ontario,,7,1,,,
+1,Manitoba,,8,1,,,
+1,Saskatchewan,,9,1,,,
+1,Alberta,,10,1,,,
+1,"British Columbia",,11,1,,,
+1,Yukon,,12,1,,3,
+1,"Northwest Territories",,13,1,,3,
+1,Nunavut,,14,1,,3;4,
+2,"Both sexes",,1,,,,
+2,Males,,2,1,,,
+2,Females,,3,1,,,
+3,"Total population",,1,,,,
+3,"First Nations",,2,1,,5;6,
+3,Métis,,3,1,,,
+3,Inuit,,4,1,,,
+3,"Non-Aboriginal identity population",,5,1,,,
+4,Arthritis,,1,,,7;8,
+4,Asthma,,2,,,9,
+4,"Body mass index, self-reported, youth (12 to 17 years old), overweight or obese",,3,,,10;11,
+4,"Body mass index, self-reported, adult (18 years and over), overweight or obese",,4,,,10;11;12;13;14,
+4,"Body mass index, self-reported, adult (18 years and over), obese",,5,4,,10;11;12;13;14,
+4,"Body mass index, self-reported, adult (18 years and over), overweight",,6,4,,10;11;12;13;14,
+4,"Breastfeeding initiation",,7,,,15;16,
+4,"Exclusive breastfeeding, at least 6 months",,8,,,15;17;18,
+4,"Contact with a medical doctor in the past 12 months",,9,,,19;20;21,
+4,"Has a regular medical doctor",,10,,,22,
+4,"Current smoker, daily or occasional",,11,,,23;24;25;26;27,
+4,"Current smoker, daily",,12,11,,23;24;25;27,
+4,Diabetes,,13,,,28;29,
+4,"Exposure to second-hand smoke at home",,14,,,30,
+4,"Exposure to second-hand smoke in the past month, in vehicles and/or public places",,15,,,31,
+4,"Exposure to second-hand smoke in the past month, in vehicles",,16,15,,31,
+4,"Exposure to second-hand smoke in the past month, in public places",,17,15,,31,
+4,"5 or more drinks on one occasion, at least once a month in the past year",,18,,,32,
+4,"Never had alcoholic drinks in the past 12 months",,19,,,33,
+4,"Food Insecurity, moderate or severe",,20,,,34,
+4,"Fruit and vegetable consumption, 5 times or more per day",,21,,,35,
+4,"High blood pressure, heart disease or suffering from effects of stroke",,22,,,36,
+4,"High blood pressure",,23,22,,37,
+4,"Influenza immunization, less than one year ago",,24,,,21;38,
+4,"Life satisfaction, satisfied or very satisfied",,25,,,39;40,
+4,"Mood disorder",,26,,,41,
+4,"One or more chronic conditions",,27,,,42,
+4,"Pain or discomfort by severity, moderate or severe",,28,,,43,
+4,"Pain or discomfort that prevents activities",,29,,,44,
+4,"Participation and activity limitation, sometimes or often",,30,,,45;46,
+4,"Perceived health, very good or excellent",,31,,,47,
+4,"Perceived health, fair or poor",,32,,,47,
+4,"Perceived mental health, very good or excellent",,33,,,48,
+4,"Perceived mental health, fair or poor",,34,,,48,
+4,"Perceived life stress, quite a lot (15 years and over)",,35,,,49;50,
+4,"Physical activity during leisure-time, moderately active or active",,36,,,51;52,
+4,"Physical activity during leisure-time, inactive",,37,,,51;52,
+4,"Respiratory problems",,38,,,53,
+4,"Sense of belonging to local community, somewhat strong or very strong",,39,,,54,
+5,"Age-standardized rate",,1,,,,
+5,"Low 95% confidence interval, age-standardized rate",,2,,,,
+5,"High 95% confidence interval, age-standardized rate",,3,,,,
+5,"Coefficient of variation for age-standardized rate",,4,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3226,"Canadian Community Health Survey - Annual Component"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Source: Statistics Canada, Canadian Community Health Survey (CCHS). The CANSIM table 105-0513 is now archived due to a change in age-standardization. More recent data are in CANSIM table 105-0515."
+2,"All rates in this table are calculated excluding non-response categories (""refusal"", ""don't know"", and ""not stated"") in the denominator."
+3,"Weighting controls on the proportion of Aboriginal and non-Aboriginal as well as capital and non-capital have been put in place for Yukon and the Northwest Territories. Similar controls for Inuit and non-Inuit have also been put in place for Nunavut for the same reference periods."
+4,"The Canadian Community Health Survey is administered in Nunavut, using an alternative methodology that accommodates some of the operational difficulties inherent to remote locales. The 10 largest communities are Iqaluit, Cambridge Bay, Baker Lake, Arviat, Rankin Inlet, Kugluktuk, Pond Inlet, Cape Dorset, Pangnirtung, Igloolik."
+5,"The terms ""First Nations"" and ""North American Indian"" can be interchanged."
+6,"The term ""First Nations"" refers to the First Nations population living off reserve."
+7,"Population aged 15 and over who reported that they have been diagnosed by a health professional as having arthritis."
+8,"Arthritis includes rheumatoid arthritis and osteoarthritis, but excludes fibromyalgia. Starting with the 2011 questionnaire, in French only, the word arthrose"" was added to the question as patients tend to associate the word ""arthrite"" with rheumatoid arthritis and ""arthrose"" with degenerative arthritis."""
+9,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having asthma."
+10,"Body mass index (BMI) is a method of classifying body weight according to health risk. According to the World Health Organization (WHO) and Health Canada guidelines, health risk levels are associated with each of the following BMI categories: normal weight = least health risk; underweight and overweight = increased health risk; obese, class I = high health risk; obese, class II = very high health risk; obese, class III = extremely high health risk."
+11,"Body mass index (BMI) is calculated by dividing the respondent's body weight (in kilograms) by their height (in metres) squared."
+12,"A definition change was implemented in 2004 to conform with the World Health Organization (WHO) and Health Canada guidelines for body weight classification. The index is calculated for the population aged 18 and over, excluding pregnant females and persons less than 3 feet (0.914 metres) tall or greater than 6 feet 11 inches (2.108 metres)."
+13,"According to the World Health Organization (WHO) and Health Canada guidelines, the index for body weight classification is: less than 18.50 (underweight); 18.50 to 24.99 (normal weight); 25.00 to 29.99 (overweight); 30.00 to 34.99 (obese, class I); 35.00 to 39.99 (obese, class II); 40.00 or greater (obese, class III)."
+14,"This indicator is measured out of 18 years and over only."
+15,"Based on information provided by females aged 15 to 55 who had a baby in the last 5 years."
+16,"Initiated breastfeeding refers to mothers who breastfed or tried to breastfeed their last child even if only for a short time."
+17,"Exclusive breastfeeding refers to an infant receiving only breast milk, without any additional liquid (even water) or solid food."
+18,"The numerator includes mothers who have exclusively breastfed for at least 6 months and who may or may not be still breastfeeding. The denominator includes all mothers who had a baby in the past 5 years but excludes mothers who were still breastfeeding and who had not introduced any other liquids or solid foods to the baby's feeds. Previously, this indicator included in the numerator, only mothers who had stopped breastfeeding and for whom we knew they had introduced other liquids or solid foods to the baby's feeds when the baby was 6 months or more. The denominator included mothers who had stopped breastfeeding and for whom we knew when they had introduced other liquids or solid foods to the baby's feeds. This modification will produce lower rates of 6 months exclusive breastfeeding as mothers who have had a baby in the past 5 years and have not breastfed are now included in the denominator. This change was implemented to produce more comparable rates over time and is more consistent with methods used in calculating other indicators."
+19,"Population aged 12 and over who reported having consulted with a medical doctor in the past 12 months."
+20,"Medical doctor includes family or general practitioners as well as specialists such as surgeons, allergists, orthopaedists, gynaecologists or psychiatrists. For population aged 12 to 17, includes pediatricians."
+21,"Population aged 12 and over who reported when they had their last influenza immunization (flu shot)."
+22,"Population aged 12 and over who reported that they have a regular medical doctor. In 2005 and 2003, the indicator in French only included ""médecin de famille"". Starting in 2007, this concept was widened to ""médecin régulier"", which includes ""médecin de famille""."
+23,"Population aged 12 and over who reported being a current smoker."
+24,"Daily smoker refers to those who reported smoking cigarettes every day."
+25,"Does not take into account the number of cigarettes smoked."
+26,"Occasional smoker refers to those who reported smoking cigarettes occasionally. This includes former daily smokers who now smoke occasionally."
+27,"Smoking includes cigarettes, cigars and pipes."
+28,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having Type 1 or Type 2 diabetes."
+29,"Diabetes includes females 15 and over who reported that they have been diagnosed with gestational diabetes."
+30,"Non-smoking population aged 12 and over who reported that at least one person smoked inside their home every day or almost every day."
+31,"Non-smoking population aged 12 and over who reported being exposed to second-hand smoke in private vehicles and/or public places on every day or almost every day in the past month."
+32,"Prior to 2013, this represented population aged 12 and over who reported having 5 or more drinks (for males and females) on one occasion, at least once a month in the past year. A definition change was implemented in 2013 to conform with the World Health Organization (WHO) and Health Canada guidelines for Heavy drinking. Heavy drinking refers to males who reported having 5 or more drinks, or women who reported having 4 or more drinks, on one occasion, at least once a month in the past year. While this indicator remains comparable for males to the 5 or more drinks indicator published in previous years, it is no longer comparable for females."
+33,"Population aged 12 and over who reported that they have not have any alcoholic drinks in the past 12 months."
+34,"This variable is based on a set of 18 questions and indicates whether households both with and without children were able to afford the food they needed in the previous 12 months. The levels of food security are defined as: 1- Food secure: No, or one, indication of difficulty with income-related food access; 2- Moderately food insecure: Indication of compromise in quality and/or quantity of food consumed; 3- Severely food insecure: Indication of reduced food intake and disrupted eating patterns."
+35,"Indicates the usual number of times (frequency) per day a person reported eating fruits and vegetables. Measure does not take into account the amount consumed."
+36,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having high blood pressure, heart disease or is suffering from effects of stroke"
+37,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having high blood pressure."
+38,"The 2009 data on flu shots may include H1N1 vaccines received in the Fall of 2009. In 2010, the word ""seasonal"" was added to the questions in order to collect the two types of vaccines separately. After 2010, the separate module on H1N1 vaccines is not asked as the H1N1 flu shot is now given in combination with the seasonal flu vaccine ."
+39,"Population aged 12 and over who reported being satisfied or very satisfied with their life in general."
+40,"Starting in 2009, this indicator is based on a grouped variable. In 2009, the question was changed from 5-point answer category to an 11-point scale. The concordance between the two scales was found to be good."
+41,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having a mood disorder, such as depression, bipolar disorder, mania or dysthymia."
+42,"Population aged 12 and over who reported that they have been diagnosed by a health professional with having one or more of the following chronic conditions: asthma, arthritis (excluding fibromyalgia), back problems (excluding fibromyalgia and arthritis), high blood pressure, migraine headaches, chronic bronchitis, emphysema, chronic obstructive pulmonary disease (COPD), diabetes, heart disease, cancer, intestinal or stomach ulcers, suffering from the effects of a stroke, suffering from urinary incontinence, suffer from a bowel disorder such as Crohn's Disease / ulcerative colitis / Irritable Bowel Syndrome / bowel incontinence, Alzheimer's Disease or any other dementia, a mood disorder such as depression / bipolar disorder / mania / dysthymia, an anxiety disorder such as a phobia / obsessive-compulsive disorder / a panic disorder"
+43,"Population aged 12 and over who reported that they usually have pain or discomfort."
+44,"Population aged 15 and over who reported having pain or discomfort that prevents activities."
+45,"Population aged 12 and over who reported being limited in selected activities (home, school, work and other activities) because of a physical condition, mental condition or health problem which has lasted or is expected to last 6 months or longer."
+46,"This indicator is derived from data collected from an optional content module. Only provincial and sub-provincial estimates are available for years when the module was selected by a given province.  National estimates are not available unless the module became part of biennial or quadrennial common content blocks in a given survey year. Please refer to the document “CCHS content overview” available for the survey under the documentation section of the Definitions, data sources and methods page on the Statistics Canada website."
+47,"Population aged 12 and over who reported perceiving their own health status as being either excellent or very good or fair or poor, depending on the indicator. Perceived health refers to the perception of a person's health in general, either by the person himself or herself, or, in the case of proxy response, by the person responding. Health means not only the absence of disease or injury but also physical, mental and social well being."
+48,"Population aged 12 and over who reported perceiving their own mental health status as being excellent or very good or fair or poor, depending on the indicator. Perceived mental health refers to the perception of a person's mental health in general. Perceived mental health provides a general indication of the population suffering from some form of mental disorder, mental or emotional problems, or distress, not necessarily reflected in perceived health."
+49,"Data for this indicator are collected from population aged 15 years and over only."
+50,"Population aged 15 and over who reported perceiving that most days in their life were quite a bit or extremely stressful. Perceived life stress refers to the amount of stress in the person's life, on most days, as perceived by the person or, in the case of proxy response, by the person responding."
+51,"Population aged 12 and over who reported a level of physical activity, based on their responses to questions about the nature, frequency and duration of their participation in leisure-time physical activity."
+52,"Respondents are classified as active, moderately active or inactive based on an index of average daily physical activity over the past 3 months. For each leisure time physical activity engaged in by the respondent, an average daily energy expenditure is calculated by multiplying the number of times the activity was performed by the average duration of the activity by the energy cost (kilocalories per kilogram of body weight per hour) of the activity. The index is calculated as the sum of the average daily energy expenditures of all activities. Respondents are classified as follows: 3.0 kcal/kg/day or more = physically active; 1.5 to 2.9 kcal/kg/day = moderately active; less than 1.5 kcal/kg/day = inactive."
+53,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having asthma, chronic bronchitis, emphysema or chronic obstructive pulmonary disease (COPD)."
+54,"Population aged 12 and over who reported their sense of belonging to their local community as being very strong or somewhat strong. Research shows a high correlation of sense of community-belonging with physical and mental health."
+55,"Age-standardized (age-adjusted) rates have been calculated using the 2007 to 2010 Aboriginal population. The use of a standard population results in more meaningful rate comparisons, as it adjusts for variations in population age distributions over time."
+56,"The confidence interval illustrates the degree of variability associated with a rate. Wide confidence intervals indicate high variability, thus, these rates should be interpreted with due caution. When comparing estimates, it is important to use confidence intervals to determine if differences between values are statistically significant."
+57,"Bootstrapping techniques were used to produce the coefficient of variation (CV) and 95% confidence intervals (CIs)."
+58,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified as follows: (E) use with caution."
+59,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed due to extreme sampling variability and are identified as follows: (F) too unreliable to be published."
+60,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period and (...) for figures not applicable."
+61,"Starting with the 2010 and 2009/2010 Canadian Community Health Survey (CCHS) datasets, the 2006 Census population counts have been used to produce the population projection counts. These counts are used to ensure that the CCHS survey weights and resulting estimates included in this CANSIM table are consistent with known population totals. Prior to 2010, 2001 Census population counts were used. Evaluation studies have confirmed that the impact of this change on CCHS estimates should be minimal."
+
+"Correction ID","Correction Date","Correction Note"
+
